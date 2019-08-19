@@ -18,27 +18,26 @@ const Header = () => {
   const [hamburgerActive, setHamburgerActive] = useState(false);
 
   const toggle = () => {
-    console.log('toggle');
     setHamburgerAria(hamburgerAria === false ? true : false);
     setHamburgerActive(hamburgerActive === false ? true : false);
   }
 
   return (
     <header className={headerStyles.header}>
-      <nav className="navbar" role="navigation" aria-label="main-navigation">
+      <nav className="navbar is-transparent is-spaced" role="navigation" aria-label="main-navigation">
         <div className="navbar-brand">
           <Link className="navbar-item" to="/">
             {data.site.siteMetadata.title}
           </Link> 
 
-          <a role="button" className={`navbar-burger ${!hamburgerActive ? 'is-active' : ''}`} aria-label="menu" aria-expanded={hamburgerAria} onClick={toggle}>
+          <a role="button" className={`navbar-burger ${hamburgerActive ? 'is-active' : ''}`} aria-label="menu" aria-expanded={hamburgerAria} onClick={toggle}>
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
           </a>
         </div>
 
-        <div className={`navbar-menu ${!hamburgerActive ? 'is-active' : ''}`}>
+        <div className={`navbar-menu ${hamburgerActive ? 'is-active' : ''}`}>
           <div className="navbar-start">
             
           </div>
@@ -69,12 +68,6 @@ const Header = () => {
           </div>
         </div>
       </nav>
-
-      {/* <h1>
-        <Link className={headerStyles.title} to="/">
-          {data.site.siteMetadata.title}
-        </Link>
-      </h1> */}
     </header>
   );
 }
