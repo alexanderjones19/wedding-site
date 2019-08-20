@@ -1,9 +1,15 @@
 .header {
   padding: 1rem 0 3rem;
+  background: none;
+  position: absolute;
 }
 
 .title {
   color: #000000;
   font-size: 3rem;
   text-decoration: none;
+}
+
+.navbar {
+  background: none;
 }

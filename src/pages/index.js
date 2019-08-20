@@ -1,24 +1,57 @@
 import React from 'react';
 import { graphql, useStaticQuery } from 'gatsby';
+import Img from 'gatsby-image/withIEPolyfill';
 
+import indexStyles from './index.module.scss';
 import Layout from '../components/layout';
 import Head from '../components/head';
 
-const IndexPage = () => {
-  const data = useStaticQuery(graphql`
-    query {
-      site {
-        siteMetadata {
-          description
+export const query = graphql`
+  query {
+    file(relativePath: { eq: "constance_alexander_NYC_engagement-126.jpg"}) {
+      childImageSharp {
+        fluid(maxWidth: 6700, maxHeight: 4467) {
+          ...GatsbyImageSharpFluid
         }
       }
     }
-  `);
+  }
+`;
+
+const IndexPage = ({ data }) => {
+  // const data = useStaticQuery(graphql`
+  //   query {
+  //     site {
+  //       siteMetadata {
+  //         description
+  //       }
+  //     }
+  //   }
+  // `);
 
   return (
     <Layout>
       <Head title="Home" />
-      <h3>{data.site.siteMetadata.description}</h3>
+      <section className={`hero is-fullheight ${indexStyles.section}`}>
+        <div className={`hero-body ${indexStyles.heroBody}`}>
+          <div className={indexStyles.containerDiv}>
+            <Img
+              fluid={data.file.childImageSharp.fluid}
+              objectFit="cover"
+              objectPosition="50% 50%"
+              alt="Constance Edmonds and Alexander Jones"
+              className={indexStyles.heroImg}
+              imgStyle={{
+                top: 'initial',
+                bottom: 0,
+                height: 'initial',
+                minHeight: '100%',
+                marginBottom: 0
+              }}
+            />
+          </div>
+        </div>
+      </section>
     </Layout>
   );
 }

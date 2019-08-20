@@ -1,0 +1,24 @@
+.section {
+  overflow: hidden;
+  max-height: 100vh;
+  flex-direction: unset;
+}
+
+.heroBody {
+  padding: 0;
+  align-items: stretch!important;
+}
+
+.containerDiv {
+  flex-grow: 1;
+}
+
+.heroImg {
+  height: 100%;
+  min-height: auto;
+}
+
+.imgElement {
+  min-height: 0;
+  height: 100%;
+}

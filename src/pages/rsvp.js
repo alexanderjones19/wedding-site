@@ -5,7 +5,7 @@ import Head from '../components/head';
 
 const RsvpPage = () => {
   return (
-    <Layout>
+    <Layout topMargin>
       <Head title="RSVP" />
       <h1>RSVP</h1>
     </Layout>

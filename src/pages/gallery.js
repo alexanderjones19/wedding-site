@@ -5,7 +5,7 @@ import Head from '../components/head';
 
 const GalleryPage = () => {
   return (
-    <Layout>
+    <Layout topMargin>
       <Head title="Gallery" />
       <h1>Gallery</h1>
     </Layout>

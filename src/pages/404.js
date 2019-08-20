@@ -6,7 +6,7 @@ import Head from '../components/head';
 
 const Error404Page = () => {
   return (
-    <Layout>
+    <Layout topMargin>
       <Head title="404" />
       <h1>Sorry, the page you are looking for was not found.</h1>
       <p><Link to="/">Return home</Link></p>

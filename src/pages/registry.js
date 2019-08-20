@@ -5,7 +5,7 @@ import Head from '../components/head';
 
 const RegistryPage = () => {
   return (
-    <Layout>
+    <Layout topMargin>
       <Head title="Registry" />
       <h1>Registry</h1>
     </Layout>

@@ -8,10 +8,12 @@ import Footer from './footer';
 const Layout = (props) => {
   return (
     <div className={layoutStyles.container}>
-      <Header />
+      {/* <Header /> */}
       <div className={layoutStyles.content}>
-        {/* <Header /> */}
-        {props.children}
+        <Header />
+        <div className={props.topMargin ? layoutStyles.topMargin : ''}>
+          {props.children}
+        </div>
       </div>
       <Footer />
     </div>

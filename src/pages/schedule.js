@@ -5,7 +5,7 @@ import Head from '../components/head';
 
 const SchedulePage = () => {
   return (
-    <Layout>
+    <Layout topMargin>
       <Head title="Schedule" />
       <h1>Schedule</h1>
     </Layout>
