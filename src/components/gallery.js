@@ -79,10 +79,15 @@ const Gallery = ({
               <Carousel
                 views={images.map((image) => ({
                   source: image.src,
+                  // source: {
+                  //   fullscreen: image.srcSet[3],
+                  //   regular: image.srcSet[1],
+                  //   thumbnail: image.srcSet[1]
+                  // },
                   caption: image.caption,
                 }))}
                 currentIndex={modalCurrentIndex}
-                components={{ FooterCount: () => null }}
+                // components={{ FooterCount: () => null }}
               />
             </Modal>
           )}

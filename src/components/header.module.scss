@@ -11,8 +11,8 @@
 }
 
 .navbar {
-  // background: none;
   background: rgba(36, 36, 36, 0.9);
+  z-index: 1!important;
 }
 
 .navbarItem {
@@ -21,4 +21,21 @@
 
 .navbarItem:hover {
   color: white!important;
+  background-color: transparent!important;
+}
+
+.navbarItem:active {
+  color: white!important;
+}
+
+.burgerIcon {
+  color: #c9a0dc;
+}
+
+.burgerIcon:hover {
+  color: white;
+}
+
+.navbarMenu {
+  background-color: transparent;
 }

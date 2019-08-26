@@ -30,14 +30,14 @@ const Header = () => {
             {data.site.siteMetadata.title}
           </Link> 
 
-          <a role="button" className={`navbar-burger ${hamburgerActive ? 'is-active' : ''}`} aria-label="menu" aria-expanded={hamburgerAria} onClick={toggle}>
+          <a role="button" className={`navbar-burger ${headerStyles.burgerIcon} ${hamburgerActive ? 'is-active' : ''}`} aria-label="menu" aria-expanded={hamburgerAria} onClick={toggle}>
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
           </a>
         </div>
 
-        <div className={`navbar-menu ${hamburgerActive ? 'is-active' : ''}`}>
+        <div className={`navbar-menu ${headerStyles.navbarMenu} ${hamburgerActive ? 'is-active' : ''}`}>
           <div className="navbar-start">
             
           </div>
