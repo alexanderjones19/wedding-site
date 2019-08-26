@@ -26,7 +26,7 @@ const Header = () => {
     <header className={headerStyles.header}>
       <nav className={`navbar is-fixed-top is-transparent is-spaced ${headerStyles.navbar}`} role="navigation" aria-label="main-navigation">
         <div className="navbar-brand">
-          <Link className="navbar-item" to="/">
+          <Link className={`navbar-item ${headerStyles.navbarItem}`} to="/">
             {data.site.siteMetadata.title}
           </Link> 
 
@@ -42,27 +42,27 @@ const Header = () => {
             
           </div>
           <div className="navbar-end">
-            <Link className="navbar-item" to="/gallery">
+            <Link className={`navbar-item ${headerStyles.navbarItem}`} to="/gallery">
               Gallery
             </Link>
 
-            <Link className="navbar-item" to="/venue">
+            <Link className={`navbar-item ${headerStyles.navbarItem}`} to="/venue">
               Venue
             </Link>
 
-            <Link className="navbar-item" to="/schedule">
+            <Link className={`navbar-item ${headerStyles.navbarItem}`} to="/schedule">
               Schedule
             </Link>
 
-            <Link className="navbar-item" to="/travel">
-              Travel
+            <Link className={`navbar-item ${headerStyles.navbarItem}`} to="/travel">
+              Hotel
             </Link>
 
-            <Link className="navbar-item" to="/rsvp">
+            <Link className={`navbar-item ${headerStyles.navbarItem}`} to="/rsvp">
               RSVP
             </Link>
 
-            <Link className="navbar-item" to="/registry">
+            <Link className={`navbar-item ${headerStyles.navbarItem}`} to="/registry">
               Registry
             </Link>
           </div>

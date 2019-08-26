@@ -7,7 +7,7 @@ const TravelPage = () => {
   return (
     <Layout topMargin>
       <Head title="Travel" />
-      <h1>Travel</h1>
+      <h1>Accomodations</h1>
     </Layout>
   );
 }
