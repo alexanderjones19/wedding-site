@@ -8,7 +8,6 @@ import Footer from './footer';
 const Layout = (props) => {
   return (
     <div className={layoutStyles.container}>
-      {/* <Header /> */}
       <div className={layoutStyles.content}>
         <Header />
         <div className={props.topMargin ? layoutStyles.topMargin : ''}>

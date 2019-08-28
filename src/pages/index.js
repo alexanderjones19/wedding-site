@@ -60,11 +60,11 @@ const IndexPage = ({ data }) => {
       <br />
       <div className={indexStyles.container}>
         <div className={indexStyles.content}>
-          <h1>Our Story</h1>
+          <h1>Welcome</h1>
         </div>
         <br />
         <div className={indexStyles.content}>
-          <p>Blah blah blah blah blah blah blah blah </p>
+          <p>Welcome section, thank you for visiting etc. </p>
         </div>
       </div>
       
