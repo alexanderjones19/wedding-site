@@ -53,20 +53,14 @@ const IndexPage = ({ data }) => {
         </div>
       </section>
 
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
-      <div className={indexStyles.container}>
-        <div className={indexStyles.content}>
-          <h1>Welcome</h1>
+      <hr/>
+
+      <section className="section">
+        <div className="container">
+          <h1 className={`title is-1 ${indexStyles.textContent}`}>Welcome</h1>
+          <h3 className={`subtitle is-3 ${indexStyles.textContent}`}>Welcome section, thank you for visiting etc.</h3>
         </div>
-        <br />
-        <div className={indexStyles.content}>
-          <p>Welcome section, thank you for visiting etc. </p>
-        </div>
-      </div>
+      </section>
       
     </Layout>
   );
