@@ -4,8 +4,10 @@ import footerStyles from './footer.module.scss';
 
 const Footer = () => {
   return (
-    <footer className={footerStyles.footer}>
-      <p>Footer</p>
+    <footer className={`footer ${footerStyles.footer}`}>
+      <div className="content has-text-centered">
+        <p className={footerStyles.content}></p>
+      </div>
     </footer>
   );
 }

@@ -1,9 +1,17 @@
 .formContainer {
   display: flex;
   justify-content: center;
-  height: 808px;
+  height: 900px;
 }
 
 .content {
   text-align: center;
+}
+
+.contentSection {
+  padding-bottom: 0;
+}
+
+.formSection {
+  padding-top: 27px;
 }
