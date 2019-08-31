@@ -16,7 +16,9 @@
 }
 
 .navbarItem {
-  color: #c9a0dc; 
+  color: #c9a0dc;
+  font-family: 'Padauk', sans-serif;
+  font-size: 1.25rem;
 }
 
 .navbarItem:hover {
@@ -48,4 +50,9 @@
 
 .navbarMenu {
   background-color: transparent;
+}
+
+.brandTypography {
+  font-family: 'Prata', serif;
+  font-size: 1.5rem;
 }

@@ -23,6 +23,19 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    `gatsby-transformer-yaml`
+    `gatsby-transformer-yaml`,
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Prata`
+          },
+          {
+            family: `Padauk`
+          }
+        ]
+      }
+    }
   ]
 }

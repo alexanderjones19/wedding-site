@@ -26,7 +26,7 @@ const Header = () => {
     <header className={headerStyles.header}>
       <nav className={`navbar is-fixed-top is-transparent is-spaced ${headerStyles.navbar}`} role="navigation" aria-label="main-navigation">
         <div className="navbar-brand">
-          <Link className={`navbar-item ${headerStyles.navbarItem}`} to="/">
+          <Link className={`navbar-item ${headerStyles.navbarItem} ${headerStyles.brandTypography}`} to="/">
             {data.site.siteMetadata.title}
           </Link> 
 
