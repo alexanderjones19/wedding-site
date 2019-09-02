@@ -1,5 +1,5 @@
 import React from 'react';
-import { graphql, useStaticQuery } from 'gatsby';
+import { graphql } from 'gatsby';
 import Img from 'gatsby-image/withIEPolyfill';
 
 import indexStyles from './index.module.scss';
@@ -19,16 +19,6 @@ export const query = graphql`
 `;
 
 const IndexPage = ({ data }) => {
-  // const data = useStaticQuery(graphql`
-  //   query {
-  //     site {
-  //       siteMetadata {
-  //         description
-  //       }
-  //     }
-  //   }
-  // `);
-
   return (
     <Layout>
       <Head title="Home" />
@@ -57,8 +47,15 @@ const IndexPage = ({ data }) => {
 
       <section className="section">
         <div className="container">
-          <h1 className={`title is-1 ${indexStyles.textContent}`}>Welcome</h1>
-          <h3 className={`subtitle is-3 ${indexStyles.textContent}`}>Welcome section, thank you for visiting etc.</h3>
+          <h1 className={`title is-1 ${indexStyles.textContent}`}>
+            Hello Friends and Family!
+          </h1>
+          <h3 className={`subtitle is-3 ${indexStyles.textContent}`}>
+            Thank you so much for being a part of our special day! Here you will find all of the information you need in preparation for our wedding. Please let us know if you have any lingering questions, you can find our email on the RSVP page. We love all of you, can't wait until April!
+          </h3>
+          <h5 className={`subtitle is-5 ${indexStyles.textContent}`}>
+            - Constance + Alexander
+          </h5>
         </div>
       </section>
       

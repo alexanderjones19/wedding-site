@@ -2,7 +2,10 @@ module.exports = {
   siteMetadata: {
     title: `Constance + Alexander`,
     // siteUrl: `tbd`,
-    description: `Website for the wedding of Constance Edmonds and Alexander Jones`
+    description: `Website for the wedding of Constance Edmonds and Alexander Jones`,
+    venue: `Virginia Museum of Contemporary Art`,
+    venueAddress: `2200 Parks Ave, Virginia Beach, VA 23451`,
+    venueWebsite: `https://virginiamoca.org/`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
