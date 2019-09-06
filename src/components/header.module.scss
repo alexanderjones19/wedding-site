@@ -32,7 +32,6 @@
 
 .navbarItem:focus {
   color: white!important;
-  outline: none;
   background-color: transparent!important;
 }
 
@@ -42,10 +41,6 @@
 
 .burgerIcon:hover {
   color: white;
-}
-
-.burgerIcon:focus {
-  outline: none;
 }
 
 .navbarMenu {

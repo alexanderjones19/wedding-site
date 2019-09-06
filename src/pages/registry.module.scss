@@ -1,0 +1,15 @@
+.textContent {
+  font-family: 'Padauk', sans-serif;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image {
+  width: 100%;
+  max-width: 500px;
+}

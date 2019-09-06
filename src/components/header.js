@@ -54,7 +54,7 @@ const Header = () => {
               Schedule
             </Link>
 
-            <Link className={`navbar-item ${headerStyles.navbarItem}`} to="/travel">
+            <Link className={`navbar-item ${headerStyles.navbarItem}`} to="/hotel">
               Hotel
             </Link>
 
