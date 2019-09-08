@@ -10,10 +10,10 @@ const HotelPage = () => {
       <Head title="Hotel" />
       <section className="section">
         <div className="container">
-          <h2 className={`title is-2 ${hotelStyles.textContent}`}>
+          <h2 className={`title is-2 is-size-4-mobile ${hotelStyles.textContent}`}>
             Hotel
           </h2>
-          <h4 className={`subtitle is-4 ${hotelStyles.textContent}`}>
+          <h4 className={`subtitle is-4 is-size-6-mobile ${hotelStyles.textContent}`}>
             Information Coming Soon
           </h4>
         </div>

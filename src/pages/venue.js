@@ -31,7 +31,7 @@ const VenuePage = ({ data }) => {
       <Head title="Venue" />
       <section className="section">
         <div className={`container ${venueStyles.container}`}>
-          <h2 className={`title is-2 ${venueStyles.textContent}`}>
+          <h2 className={`title is-2 is-size-4-mobile ${venueStyles.textContent}`}>
             Venue
           </h2>
           <Img
@@ -40,11 +40,11 @@ const VenuePage = ({ data }) => {
             className={venueStyles.image}
           />
           <a className={venueStyles.anchor} href={data.site.siteMetadata.venueWebsite} target="_blank" rel="noopener noreferrer">
-            <h4 className={`subtitle is-4 ${venueStyles.textContent}`}>
+            <h4 className={`subtitle is-4 is-size-6-mobile ${venueStyles.textContent}`}>
               {data.site.siteMetadata.venue} Website
             </h4>
           </a>
-          <h4 className={`subtitle is-4 ${venueStyles.textContent}`}>
+          <h4 className={`subtitle is-4 is-size-6-mobile ${venueStyles.textContent}`}>
             {data.site.siteMetadata.venueAddress}
           </h4>
         </div>

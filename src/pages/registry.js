@@ -24,7 +24,7 @@ const RegistryPage = ({ data }) => {
       <Head title="Registry" />
       <section className="section">
         <div className={`container ${registryStyles.container}`}>
-          <h2 className={`title is-2 ${registryStyles.textContent}`}>
+          <h2 className={`title is-2 is-size-4-mobile ${registryStyles.textContent}`}>
             Registry
           </h2>
           <a className={registryStyles.image} target="_blank" href="http://www.zola.com/registry/constanceandalexander">

@@ -10,10 +10,10 @@ const RsvpPage = () => {
       <Head title="RSVP" />
       <section className={`section ${rsvpStyles.sectionStyles}`}>
         <div className="container">
-          <h2 className={`title is-2 ${rsvpStyles.textContent}`}>
+          <h2 className={`title is-2 is-size-4-mobile ${rsvpStyles.textContent}`}>
             RSVP
           </h2>
-          <h4 className={`subtitle is-4 ${rsvpStyles.textContent}`}>
+          <h4 className={`subtitle is-4 is-size-6-mobile ${rsvpStyles.textContent}`}>
             Contact: edmondsjoneswedding@gmail.com
           </h4>
         </div>
