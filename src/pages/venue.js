@@ -44,7 +44,7 @@ const VenuePage = ({ data }) => {
               {data.site.siteMetadata.venue} Website
             </h4>
           </a>
-          <h4 className={`subtitle is-4 is-size-6-mobile ${venueStyles.textContent}`}>
+          <h4 className={`subtitle is-4 is-size-6-mobile ${venueStyles.textContent} ${venueStyles.addressText}`}>
             {data.site.siteMetadata.venueAddress}
           </h4>
         </div>
