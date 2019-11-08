@@ -1,4 +1,25 @@
 .textContent {
   font-family: 'Padauk', sans-serif;
   text-align: center;
+  margin-bottom: 0;
+  color: inherit;
+}
+
+.marginTop {
+  margin-top: 1rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.anchor {
+  color: #c9a0dc;
+}
+
+.anchor:hover {
+  transition: color 0.75s ease;
+  -webkit-transition: color 0.75s ease;
 }
