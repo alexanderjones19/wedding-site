@@ -8,9 +8,16 @@ import registryStyles from './registry.module.scss';
 
 export const query = graphql`
   query {
-    file(relativePath: {eq: "Zola-Logo.png"}) {
+    zola: file(relativePath: {eq: "Zola-Logo.png"}) {
       childImageSharp {
-        fluid(maxWidth: 500, maxHeight: 353) {
+        fluid(maxWidth: 1000, maxHeight: 324) {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    },
+    bedBath: file(relativePath: {eq: "Bed-Bath-Beyond-Logo.png"}) {
+      childImageSharp {
+        fluid(maxWidth: 2088, maxHeight: 720) {
           ...GatsbyImageSharpFluid
         }
       }
@@ -27,10 +34,17 @@ const RegistryPage = ({ data }) => {
           <h2 className={`title is-2 is-size-4-mobile ${registryStyles.textContent}`}>
             Registry
           </h2>
-          <a className={registryStyles.image} target="_blank" href="http://www.zola.com/registry/constanceandalexander">
+          <a className={`${registryStyles.image} ${registryStyles.imageMargin}`} target="_blank" rel="noopener noreferrer" href="http://www.zola.com/registry/constanceandalexander">
             <Img
-              fluid={data.file.childImageSharp.fluid}
+              fluid={data.zola.childImageSharp.fluid}
               alt="Zola"
+              className={registryStyles.image}
+            />
+          </a>
+          <a className={`${registryStyles.image} ${registryStyles.imageMargin}`} target="_blank" rel="noopener noreferrer" href="https://www.bedbathandbeyond.com/store/giftregistry/viewregistryguest/548131920?eventType=Wedding">
+            <Img
+              fluid={data.bedBath.childImageSharp.fluid}
+              alt="Bed Bath and Beyond"
               className={registryStyles.image}
             />
           </a>
