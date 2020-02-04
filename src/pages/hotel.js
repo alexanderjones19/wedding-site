@@ -13,7 +13,18 @@ const HotelPage = () => {
           <h2 className={`title is-2 is-size-4-mobile ${hotelStyles.textContent}`}>
             Hotel
           </h2>
-          <a className={hotelStyles.anchor} href="https://www.airbnb.com/s/Virginia-Beach--VA--United-States/homes" target="_blank" rel="noopener noreferrer">
+          <a className={`${hotelStyles.anchor} ${hotelStyles.marginTop}`} href="http://www.comfortsuitesbeachfront.com" target="_blank" rel="noopener noreferrer">
+            <h4 className={`subtitle is-4 is-size-6-mobile ${hotelStyles.textContent}`}>
+              Comfort Suites Beachfront
+            </h4>
+          </a>
+          <h4 className={`subtitle is-4 is-size-6-mobile ${hotelStyles.textContent} ${hotelStyles.marginBottom}`}>
+            To Book: 757-491-2400
+          </h4>
+          <h4 className={`subtitle is-4 is-size-6-mobile ${hotelStyles.textContent}`}>
+            Group Name: Edmonds Jones Wedding
+          </h4>
+          <a className={`${hotelStyles.anchor} ${hotelStyles.marginTop}`} href="https://www.airbnb.com/s/Virginia-Beach--VA--United-States/homes" target="_blank" rel="noopener noreferrer">
             <h4 className={`subtitle is-4 is-size-6-mobile ${hotelStyles.textContent}`}>
               Airbnb
             </h4>
