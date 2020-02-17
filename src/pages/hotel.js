@@ -25,7 +25,7 @@ const HotelPage = () => {
             Group Name: Edmonds Jones Wedding
           </h4>
           <h4 className={`subtitle is-4 is-size-6-mobile ${hotelStyles.textContent} ${hotelStyles.marginBottom}`}>
-            Friday and Saturday required for reservations
+            Friday and Saturday required for group rate
           </h4>
           <h4 className={`subtitle is-4 is-size-6-mobile ${hotelStyles.textContent}`}>
             Book by 2/20/20
