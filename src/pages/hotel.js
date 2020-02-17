@@ -21,17 +21,40 @@ const HotelPage = () => {
           <h4 className={`subtitle is-4 is-size-6-mobile ${hotelStyles.textContent} ${hotelStyles.marginBottom}`}>
             To Book: 757-491-2400
           </h4>
-          <h4 className={`subtitle is-4 is-size-6-mobile ${hotelStyles.textContent}`}>
+          <h4 className={`subtitle is-4 is-size-6-mobile ${hotelStyles.textContent} ${hotelStyles.marginBottom}`}>
             Group Name: Edmonds Jones Wedding
           </h4>
+          <h4 className={`subtitle is-4 is-size-6-mobile ${hotelStyles.textContent} ${hotelStyles.marginBottom}`}>
+            Friday and Saturday required for reservations
+          </h4>
+          <h4 className={`subtitle is-4 is-size-6-mobile ${hotelStyles.textContent}`}>
+            Book by 2/20/20
+          </h4>
+
+          <a className={`${hotelStyles.anchor} ${hotelStyles.marginTop}`} href="https://www.diamondresortsandhotels.com/?MKC=GEDJONWED" target="_blank" rel="noopener noreferrer">
+            <h4 className={`subtitle is-4 is-size-6-mobile ${hotelStyles.textContent}`}>
+              Ocean Beach Club (Booking Link)
+            </h4>
+          </a>
+          <h4 className={`subtitle is-4 is-size-6-mobile ${hotelStyles.textContent} ${hotelStyles.marginBottom}`}>
+            Reservations Department: 1-800-438-2929
+          </h4>
+          <h4 className={`subtitle is-4 is-size-6-mobile ${hotelStyles.textContent} ${hotelStyles.marginBottom}`}>
+            Group Name: Edmonds Jones Wedding
+          </h4>
+          <h4 className={`subtitle is-4 is-size-6-mobile ${hotelStyles.textContent} ${hotelStyles.marginBottom}`}>
+            Block Code: GEDJONWED
+          </h4>
+          <h4 className={`subtitle is-4 is-size-6-mobile ${hotelStyles.textContent}`}>
+            Book by 3/3/20
+          </h4>
+
+
           <a className={`${hotelStyles.anchor} ${hotelStyles.marginTop}`} href="https://www.airbnb.com/s/Virginia-Beach--VA--United-States/homes" target="_blank" rel="noopener noreferrer">
             <h4 className={`subtitle is-4 is-size-6-mobile ${hotelStyles.textContent}`}>
               Airbnb
             </h4>
           </a>
-          <h4 className={`subtitle is-4 is-size-6-mobile ${hotelStyles.textContent} ${hotelStyles.marginTop}`}>
-             More Hotel Information Coming Soon
-          </h4>
         </div>
       </section>
     </Layout>
