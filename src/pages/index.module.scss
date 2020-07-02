@@ -27,3 +27,13 @@
   text-align: center;
   font-family: 'Padauk', sans-serif;
 }
+
+.link {
+  margin-top: 2rem;
+  color: #c9a0dc;
+}
+
+.link:hover {
+  transition: color 0.75s ease;
+  -webkit-transition: color 0.75s ease;
+}

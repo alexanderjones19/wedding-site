@@ -1,6 +1,7 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 import Img from 'gatsby-image/withIEPolyfill';
+import { Link } from 'gatsby';
 
 import indexStyles from './index.module.scss';
 import Layout from '../components/layout';
@@ -68,6 +69,14 @@ const IndexPage = ({ data }) => {
           <h5 className={`subtitle is-5 is-size-7-mobile ${indexStyles.textContent}`}>
             - Constance + Alexander
           </h5>
+          <Link
+            to='/schedule/'
+            className={indexStyles.link}
+          >
+            <h2 className={`title is-2 is-size-4-mobile ${indexStyles.textContent}`}>
+              Click here to view Schedule + COVID-19 guidelines  
+            </h2>
+          </Link>
         </div>
       </section>
       
