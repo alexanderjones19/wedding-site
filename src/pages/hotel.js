@@ -13,7 +13,7 @@ const HotelPage = () => {
           <h2 className={`title is-2 is-size-4-mobile ${hotelStyles.textContent}`}>
             Hotel
           </h2>
-          <a className={`${hotelStyles.anchor} ${hotelStyles.marginTop}`} href="http://www.comfortsuitesbeachfront.com" target="_blank" rel="noopener noreferrer">
+          {/* <a className={`${hotelStyles.anchor} ${hotelStyles.marginTop}`} href="http://www.comfortsuitesbeachfront.com" target="_blank" rel="noopener noreferrer">
             <h4 className={`subtitle is-4 is-size-6-mobile ${hotelStyles.textContent}`}>
               Comfort Suites Beachfront
             </h4>
@@ -29,9 +29,9 @@ const HotelPage = () => {
           </h4>
           <h4 className={`subtitle is-4 is-size-6-mobile ${hotelStyles.textContent}`}>
             Book by 2/20/20
-          </h4>
+          </h4> */}
 
-          <a className={`${hotelStyles.anchor} ${hotelStyles.marginTop}`} href="https://www.diamondresortsandhotels.com/?MKC=GEDJONWED" target="_blank" rel="noopener noreferrer">
+          {/* <a className={`${hotelStyles.anchor} ${hotelStyles.marginTop}`} href="https://www.diamondresortsandhotels.com/?MKC=GEDJONWED" target="_blank" rel="noopener noreferrer">
             <h4 className={`subtitle is-4 is-size-6-mobile ${hotelStyles.textContent}`}>
               Ocean Beach Club (Booking Link)
             </h4>
@@ -47,7 +47,7 @@ const HotelPage = () => {
           </h4>
           <h4 className={`subtitle is-4 is-size-6-mobile ${hotelStyles.textContent}`}>
             Book by 3/3/20
-          </h4>
+          </h4> */}
 
 
           <a className={`${hotelStyles.anchor} ${hotelStyles.marginTop}`} href="https://www.airbnb.com/s/Virginia-Beach--VA--United-States/homes" target="_blank" rel="noopener noreferrer">

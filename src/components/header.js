@@ -54,9 +54,9 @@ const Header = () => {
               Schedule
             </Link>
 
-            <Link className={`navbar-item ${headerStyles.navbarItem}`} to="/hotel">
+            {/* <Link className={`navbar-item ${headerStyles.navbarItem}`} to="/hotel">
               Hotel
-            </Link>
+            </Link> */}
 
             <Link className={`navbar-item ${headerStyles.navbarItem}`} to="/rsvp">
               RSVP

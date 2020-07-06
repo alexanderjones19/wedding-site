@@ -61,7 +61,10 @@ const IndexPage = ({ data }) => {
             Important Update:
           </h2>
           <h4 className={`subtitle is-4 is-size-6-mobile ${indexStyles.textContent}`}>
-            In light of the coronavirus pandemic, and due to closures we couldn't control, we unfortunately have made the decision to postpone our wedding until July 17th, 2020. We hope that everyone will still be able to join us! In the meantime, please let us know if you have any questions or concerns.
+            Ceremony Zoom link to come!
+          </h4>
+          <h4 className={`subtitle is-4 is-size-6-mobile ${indexStyles.textContent}`}>
+            In the meantime, please let us know if you have any questions or concerns.
           </h4>
           <h4 className={`subtitle is-4 is-size-6-mobile ${indexStyles.textContent}`}>
             edmondsjoneswedding@gmail.com
