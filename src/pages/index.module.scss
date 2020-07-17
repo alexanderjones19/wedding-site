@@ -38,3 +38,9 @@
   transition: color 0.75s ease;
   -webkit-transition: color 0.75s ease;
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

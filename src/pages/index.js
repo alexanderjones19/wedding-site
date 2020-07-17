@@ -47,7 +47,7 @@ const IndexPage = ({ data }) => {
       <hr/>
 
       <section className="section">
-        <div className="container">
+        <div className={`container ${indexStyles.container}`}>
           {/* <h2 className={`title is-2 is-size-4-mobile ${indexStyles.textContent}`}>
             Hello Friends and Family!
           </h2>
@@ -57,17 +57,16 @@ const IndexPage = ({ data }) => {
           <h5 className={`subtitle is-5 is-size-7-mobile ${indexStyles.textContent}`}>
             - Constance + Alexander
           </h5> */}
-          <h2 className={`title is-2 is-size-4-mobile ${indexStyles.textContent}`}>
-            Important Update:
-          </h2>
+          <a className={indexStyles.link} href="https://us04web.zoom.us/j/71392285592?pwd=V0gzTCtybjBKcUt6N0hPWmlqeXI2dz09" target="_blank" rel="noopener noreferrer">
+            <h2 className={`title is-2 is-size-4-mobile ${indexStyles.textContent}`}>
+              Click here to view Ceremony Zoom stream
+            </h2>
+          </a>
           <h4 className={`subtitle is-4 is-size-6-mobile ${indexStyles.textContent}`}>
-            Ceremony Zoom link to come!
+            Zoom meeting passcode: 9zPb9r
           </h4>
           <h4 className={`subtitle is-4 is-size-6-mobile ${indexStyles.textContent}`}>
-            In the meantime, please let us know if you have any questions or concerns.
-          </h4>
-          <h4 className={`subtitle is-4 is-size-6-mobile ${indexStyles.textContent}`}>
-            edmondsjoneswedding@gmail.com
+            Thank you so much for being a part of our special day!
           </h4>
           <h5 className={`subtitle is-5 is-size-7-mobile ${indexStyles.textContent}`}>
             - Constance + Alexander
